@@ -12,7 +12,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Arrays;
 import java.util.List;
 
 @RestController
@@ -67,11 +66,11 @@ public class ParkingController {
         return ResponseEntity.status(HttpStatus.OK).body(result);
     }
 
-//    @PostMapping("/{id}")
-//    public ResponseEntity<ParkingDTO> exit(@PathVariable String id){
-//        Parking parking = parkingService.exit(id);
-//        return ResponseEntity.ok(parkingMapper.toParkingDTO(parking));
-//    }
+    @PostMapping("/{id}")
+    public ResponseEntity<ParkingDTO> checkOut(@PathVariable String id){
+        Parking parking = parkingService.checkOut(id);
+        return ResponseEntity.ok(parkingMapper.toParkingDTO(parking));
+    }
 
 
 
