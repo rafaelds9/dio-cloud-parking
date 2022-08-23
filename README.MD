@@ -2,7 +2,7 @@
 
 # EN
 
-This project is an API that receives and returns data related to vehicles how much a customer will have to pay in a parking lot. It was developed using Spring Boot, has an interface based on SwaggerUI, data persistence using a PostgreSQL and Spring JPA, a few tests and an authenticator using Spring Security. A pipeline was also defined so the application is deployed on Heroku (available on https://dio-parking-rafaelds9.herokuapp.com/swagger-ui/#/)) when a commit is pushed to the remote repository.
+This project is an API that receives and returns data related to vehicles and how much a customer will have to pay in a parking lot. It was developed using Spring Boot, has an interface based on SwaggerUI, data persistence using PostgreSQL and Spring JPA, a few tests, and an authenticator using Spring Security. A pipeline was also defined so the application is deployed on Heroku (available on https://dio-parking-rafaelds9.herokuapp.com/swagger-ui/#/)) when a commit is pushed to the remote repository.
 
 Test credentials:
 * User: user
